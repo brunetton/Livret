@@ -1,0 +1,3 @@
+- Autres formats que A4 !
+- noms fichiers input output différents
+- si taille différent A4, message d'avertissement 

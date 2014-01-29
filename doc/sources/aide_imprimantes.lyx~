@@ -1,0 +1,477 @@
+#LyX 1.4.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 245
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Différents types d'imprimantes
+\end_layout
+
+\begin_layout Section
+Le déroulement des opérations
+\end_layout
+
+\begin_layout Enumerate
+ouvrir un fichier PDF original
+\end_layout
+
+\begin_layout Enumerate
+choisir son type d'imprimante
+\end_layout
+
+\begin_layout Enumerate
+générer le livret, c'est à dire un ou deux fichiers PDF, selon les options
+ choisies
+\end_layout
+
+\begin_layout Section
+Pourquoi plusieurs types d'imprimantes ?
+\end_layout
+
+\begin_layout Standard
+Le but de ce logiciel est de permettre d'imprimer des livrets de sorte qu'à
+ la fin de l'impression, le livret soit présenté prêt à être plié.
+ Dans le cas d'une imprimante non recto-verso par exemple, l'utilisateur
+ ne doit pas avoir à effectuer une inversion manuelle de l'ordre des feuilles
+ entre l'impression des rectos et celle des versos.
+\end_layout
+
+\begin_layout Standard
+Selon l'imprimante dont on dispose, l'ordre des pages à imprimer n'est pas
+ le même.
+ C'est pour cela qu'il faut signaler au logiciel le type d'imprimante sur
+ laquelle le livret sera imprimé.
+\end_layout
+
+\begin_layout Section
+Connaître son type d'imprimante
+\end_layout
+
+\begin_layout Subsection
+Généralités
+\end_layout
+
+\begin_layout Standard
+Il est important de noter ici que les noms 
+\begin_inset Quotes fld
+\end_inset
+
+jet d'encre
+\begin_inset Quotes frd
+\end_inset
+
+ et 
+\begin_inset Quotes fld
+\end_inset
+
+laser
+\begin_inset Quotes frd
+\end_inset
+
+ ne correspondent pas forcément à une imprimante dont la tête d'impression
+ utilise la technologie jet d'encre; mais correspond à une imprimante dont
+ la tête d'impression imprime sur le dessus de la feuille donnée dans le
+ bac d'entrée et présente cette face imprimée vers le haut.
+ Ce n'est pas le cas des grosses imprimantes laser de bureau qui impriment
+ généralement sur le recto de la feuille donnée dans le bac et restituent
+ cette feuille à l'envers.
+ On ne s'occupe en aucun cas ici de la technologie utilisée pour imprimer
+ (tête d'impression jet d'encre ou laser).
+ 
+\end_layout
+
+\begin_layout Subsection
+Imprimantes non recto-verso
+\end_layout
+
+\begin_layout Subsubsection
+Représentation shématique
+\end_layout
+
+\begin_layout Standard
+Pour dire :
+\end_layout
+
+\begin_layout Quotation
+Mon imprimante est une imprimante non recto-verso qui imprime sur le dessous
+ de la page donnée et la ressort à l'envers, on utilise ici la notation
+ schématique :
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename 21.png
+	width 10cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+original -> (recto après impression, verso après impression)
+\end_layout
+
+\begin_layout Standard
+Ce shema indique qu'on a mis dans l'imprimante une feuille sur laquelle
+ on a tracé un trait vertical.
+ On imprime sur cette feuille un document qui contient un trait horizontal.
+ La feuille qui sort de l'imprimante montre à l'utilisateur le trait horizontal
+ et le trait vertical est au dos.
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+jet d'encre
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 21.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante jet d'encre
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+laser
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 0X.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante laser
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+imprimante à plat
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename X0.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante 
+\begin_inset Quotes eld
+\end_inset
+
+à plat
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+imprimante à plat avec tête d'impression sous la feuille
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 12.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante 
+\begin_inset Quotes eld
+\end_inset
+
+à plat avec tête d'impression sous la feuille"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+imprimantes recto-verso
+\end_layout
+
+\begin_layout Standard
+Dans les shemas suivants, on représente la feuille sortant d'une imprimante
+ imprimant recto-verso deux pages sur la même feuille.
+ La première page est notée 1 et la deuxième 2.
+\end_layout
+
+\begin_layout Subsubsection
+Recto verso retournant les feuilles
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename rv21.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante recto verso retournant les feuilles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Recto verso ne retournant pas les feuilles
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename rv12.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Caption
+imprimante recto verso ne retournant pas les feuilles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comment imprimer le ou les fichiers PDF générés ?
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+jet d'encre
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+laser
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+imprimer le fichier contenant les rectos (typiquement document-rectos.pdf)
+\end_layout
+
+\begin_layout Enumerate
+prendre le tas de feuilles donné par l'imprimante et le remettre tel quel
+ dans le bac d'impression
+\end_layout
+
+\begin_layout Enumerate
+imprimer le fichier contenant les versos (typiquement document-versos.pdf)
+\end_layout
+
+\begin_layout Enumerate
+le livret est imprimé et prêt à être plié en deux pour former un livre
+\end_layout
+
+\begin_layout Subsubsection
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+imprimante à plat
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+imprimante à plat avec tête d'impression sous la feuille
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+imprimer le fichier contenant les rectos (typiquement document-rectos.pdf)
+\end_layout
+
+\begin_layout Enumerate
+prendre le tas de feuilles donné par l'imprimante, le retourner (selon le
+ côté long des feuilles : on inverse les rectos et les versos) et remettre
+ le tas de feuilles retourné dans le bac de l'imprimante.
+ 
+\end_layout
+
+\begin_layout Enumerate
+imprimer le fichier contenant les versos (typiquement document-versos.pdf)
+\end_layout
+
+\begin_layout Enumerate
+le livret est imprimé et prêt à être plié en deux pour former un livre
+\end_layout
+
+\begin_layout Subsubsection
+imprimantes recto-verso
+\end_layout
+
+\begin_layout Standard
+Pour les imprimantes recto-verso, il suffit d'imprimer le fichier pdf généré.
+ Le livret ressort prêt à être plié pour être lu comme un livre.
+\end_layout
+
+\end_body
+\end_document

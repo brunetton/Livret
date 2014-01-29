@@ -1,0 +1,188 @@
+%% LyX 1.4.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+
+\makeatletter
+\usepackage{babel}
+\makeatother
+\begin{document}
+
+\title{Différents types d'imprimantes}
+
+\maketitle
+
+\section{Le déroulement des opérations}
+
+\begin{enumerate}
+\item ouvrir un fichier PDF original
+\item choisir son type d'imprimante
+\item générer le livret, c'est à dire un ou deux fichiers PDF, selon les
+options choisies
+\end{enumerate}
+
+\section{Pourquoi plusieurs types d'imprimantes ?}
+
+Le but de ce logiciel est de permettre d'imprimer des livrets de sorte
+qu'à la fin de l'impression, le livret soit présenté prêt à être plié.
+Dans le cas d'une imprimante non recto-verso par exemple, l'utilisateur
+ne doit pas avoir à effectuer une inversion manuelle de l'ordre des
+feuilles entre l'impression des rectos et celle des versos.
+
+Selon l'imprimante dont on dispose, l'ordre des pages à imprimer n'est
+pas le même. C'est pour cela qu'il faut signaler au logiciel le type
+d'imprimante sur laquelle le livret sera imprimé.
+
+
+\section{Connaître son type d'imprimante}
+
+
+\subsection{Généralités}
+
+Il est important de noter ici que les noms <<jet d'encre>> et <<laser>>
+ne correspondent pas forcément à une imprimante dont la tête d'impression
+utilise la technologie jet d'encre; mais correspond à une imprimante
+dont la tête d'impression imprime sur le dessus de la feuille donnée
+dans le bac d'entrée et présente cette face imprimée vers le haut.
+Ce n'est pas le cas des grosses imprimantes laser de bureau qui impriment
+généralement sur le recto de la feuille donnée dans le bac et restituent
+cette feuille à l'envers. On ne s'occupe en aucun cas ici de la technologie
+utilisée pour imprimer (tête d'impression jet d'encre ou laser). 
+
+
+\subsection{Imprimantes non recto-verso}
+
+
+\subsubsection{Représentation shématique}
+
+Pour dire :
+
+\begin{quotation}
+Mon imprimante est une imprimante non recto-verso qui imprime sur
+le dessous de la page donnée et la ressort à l'envers, on utilise
+ici la notation schématique :
+\end{quotation}
+\begin{center}\includegraphics[keepaspectratio]{21}\par\end{center}
+
+\begin{center}original -> (recto après impression, verso après impression)\par\end{center}
+
+Ce shema indique qu'on a mis dans l'imprimante une feuille sur laquelle
+on a tracé un trait vertical. On imprime sur cette feuille un document
+qui contient un trait horizontal. La feuille qui sort de l'imprimante
+montre à l'utilisateur le trait horizontal et le trait vertical est
+au dos.
+
+
+\subsubsection{Type {}``jet d'encre''}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{21}
+
+
+\caption{imprimante jet d'encre}
+\end{figure}
+\par\end{center}
+
+
+\subsubsection{Type {}``laser''}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{0X}
+
+
+\caption{imprimante laser}
+\end{figure}
+\par\end{center}
+
+
+\subsubsection{Type {}``imprimante à plat''}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{X0}
+
+
+\caption{imprimante {}``à plat''}
+\end{figure}
+\par\end{center}
+
+
+\subsubsection{Type {}``imprimante à plat avec tête d'impression sous la feuille''}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{12}
+
+
+\caption{imprimante {}``à plat avec tête d'impression sous la feuille\char`\"{}}
+\end{figure}
+\par\end{center}
+
+
+\subsection{imprimantes recto-verso}
+
+Dans les shemas suivants, on représente la feuille sortant d'une imprimante
+imprimant recto-verso deux pages sur la même feuille. La première
+page est notée 1 et la deuxième 2.
+
+
+\subsubsection{Recto verso retournant les feuilles}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{rv21}
+
+
+\caption{imprimante recto verso retournant les feuilles}
+\end{figure}
+\par\end{center}
+
+
+\subsubsection{Recto verso ne retournant pas les feuilles}
+
+\begin{center}%
+\begin{figure}[H]
+\includegraphics{rv12}
+
+
+\caption{imprimante recto verso ne retournant pas les feuilles}
+\end{figure}
+\par\end{center}
+
+
+\section{Comment imprimer le ou les fichiers PDF générés ?}
+
+
+\subsubsection{Type {}``jet d'encre'' ou {}``laser''}
+
+\begin{enumerate}
+\item imprimer le fichier contenant les rectos (typiquement document-rectos.pdf)
+\item prendre le tas de feuilles donné par l'imprimante et le remettre tel
+quel dans le bac d'impression
+\item imprimer le fichier contenant les versos (typiquement document-versos.pdf)
+\item le livret est imprimé et prêt à être plié en deux pour former un livre
+\end{enumerate}
+
+\subsubsection{Type {}``imprimante à plat'' ou {}``imprimante à plat avec tête
+d'impression sous la feuille''}
+
+\begin{enumerate}
+\item imprimer le fichier contenant les rectos (typiquement document-rectos.pdf)
+\item prendre le tas de feuilles donné par l'imprimante, le retourner (selon
+le côté long des feuilles : on inverse les rectos et les versos) et
+remettre le tas de feuilles retourné dans le bac de l'imprimante. 
+\item imprimer le fichier contenant les versos (typiquement document-versos.pdf)
+\item le livret est imprimé et prêt à être plié en deux pour former un livre
+\end{enumerate}
+
+\subsubsection{imprimantes recto-verso}
+
+Pour les imprimantes recto-verso, il suffit d'imprimer le fichier
+pdf généré. Le livret ressort prêt à être plié pour être lu comme
+un livre.
+\end{document}

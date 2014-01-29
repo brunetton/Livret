@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Recrée le jar de ./dist avec le ./MANIFEST.MF
+
+nomPackage=livret-0.2
+
+nomJar=$nomPackage.jar
+jarOriginal=$PWD/dist/$nomJar
+
+if ! [ -e $jar ];then 
+    echo "ERREUR : le fichier $jar n'existe pas"
+    exit -1
+fi
+
+rep=$nomPackage-tmp-update_manifest
+mkdir $rep
+mv $jarOriginal $rep/
+
+cd $rep/
+
+jar xf $nomJar
+#là le rep $rep/livret vient d'être créé
+rm -f $nomJar
+cp ../MANIFEST.MF META-INF/
+jar cfM $jarOriginal * 
+
+cd ..
+
+rm -rf $rep
