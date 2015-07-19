@@ -10,8 +10,8 @@ Transformer très simplement un fichier PDF en livret (petit livre que l'on peut
 
 ## Images
 
-![](screenshot.png)
 ![](livret_schema.png)
+![](screenshot.png)
 
 ## TODO
 
