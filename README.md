@@ -15,7 +15,7 @@ Transformer très simplement un fichier PDF en livret (petit livre que l'on peut
 
 ## Download and install
 
-### Linux & Mac
+### Linux & Mac
 [tar file] (https://github.com/brunetton/Livret/releases/download/v0.2/livret-0.2-all_inclusive.tar)
 
 Simply untar files, then run `run.sh` from created directory.
