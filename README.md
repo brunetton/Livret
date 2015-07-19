@@ -1,6 +1,6 @@
 # Livret
 
-## English
+## English
 
 Easy transform between many pages PDF doc to a both sides printable mini-book, readable like a book.
 
