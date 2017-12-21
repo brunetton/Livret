@@ -20,6 +20,8 @@ Transformer très simplement un fichier PDF en livret (petit livre que l'on peut
 
 Simply untar files, then run `run.sh` from created directory.
 
+=> For Arch users, it seems to exists a Aur package [here](https://github.com/aur-archive/livret)
+
 ### Windows
 
 [Windows installer] (https://github.com/brunetton/Livret/releases/download/v0.2/setup-livret0.2.exe)
