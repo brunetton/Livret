@@ -29,4 +29,4 @@ Simply untar files, then run `run.sh` from created directory.
 
 ## TODO
 
-  * redo it with a good programming language
+  * redo it with a "more simple" programming language
